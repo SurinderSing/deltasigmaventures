@@ -1,13 +1,6 @@
 {
   "users": [
     {
-      "id": "1",
-      "firstName": "Surinder",
-      "lastName": "Singh",
-      "email": "ssurindersingh100@gmail.com",
-      "phoneNumber": "+91 63862 02678"
-    },
-    {
       "id": "2",
       "firstName": "Priya",
       "lastName": "Sharma",
