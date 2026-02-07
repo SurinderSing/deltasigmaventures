@@ -61,12 +61,19 @@ export const userSchema: FieldConfig[] = [
     label: "Phone Number",
     type: "tel",
     required: true,
-    placeholder: "+1-555-123-4567",
+    placeholder: "+1 (555) 123-4567",
     gridWidth: 6,
-    helperText: "Format: +1-555-123-4567",
+    helperText: "Include country code (e.g., +1 for US)",
     validation: {
-      pattern: /^\+?[\d\s\-()]{10,20}$/,
-      message: "Please enter a valid phone number",
+      // Validates international phone formats:
+      // +1-555-123-4567, +1 (555) 123-4567, +44 20 7946 0958, +91 98765 43210
+      // Requires: country code starting with +, followed by 7-15 digits
+      pattern:
+        /^\+[1-9]\d{0,2}[\s.-]?\(?\d{1,4}\)?[\s.-]?\d{1,4}[\s.-]?\d{1,9}$/,
+      minLength: 10,
+      maxLength: 20,
+      message:
+        "Enter a valid phone number with country code (e.g., +1 555-123-4567)",
     },
   },
 ];
