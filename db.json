@@ -1,3 +1,60 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Surinder",
+      "lastName": "Singh",
+      "email": "ssurindersingh100@gmail.com",
+      "phoneNumber": "+91 63862 02678"
+    },
+    {
+      "id": "2",
+      "firstName": "Priya",
+      "lastName": "Sharma",
+      "email": "priya.sharma@example.com",
+      "phoneNumber": "+91 98765 43210"
+    },
+    {
+      "id": "3",
+      "firstName": "John",
+      "lastName": "Anderson",
+      "email": "john.anderson@techcorp.com",
+      "phoneNumber": "+1 (415) 555-0123"
+    },
+    {
+      "id": "4",
+      "firstName": "Emily",
+      "lastName": "Chen",
+      "email": "emily.chen@startup.io",
+      "phoneNumber": "+1 (650) 555-0456"
+    },
+    {
+      "id": "5",
+      "firstName": "Rajesh",
+      "lastName": "Kumar",
+      "email": "rajesh.kumar@infotech.in",
+      "phoneNumber": "+91 87654 32109"
+    },
+    {
+      "id": "6",
+      "firstName": "Sarah",
+      "lastName": "Williams",
+      "email": "sarah.w@designstudio.co.uk",
+      "phoneNumber": "+44 20 7946 0958"
+    },
+    {
+      "id": "7",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "email": "m.brown@enterprise.com",
+      "phoneNumber": "+1 (212) 555-0789"
+    },
+    {
+      "id": "8",
+      "firstName": "Ananya",
+      "lastName": "Patel",
+      "email": "ananya.patel@cloudworks.in",
+      "phoneNumber": "+91 99887 76655"
+    }
+  ]
 }
